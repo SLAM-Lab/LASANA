@@ -2,7 +2,7 @@
 **Authors:** Jason Ho, James. A. Boyle, Linshen Liu, and Andreas Gerstlauer \
 **Affiliation:** The University of Texas at Austin, System-Level Architecture and Modeling Group (SLAM Lab) \
 **Conference:** Machine Learning on Computer-Aided Design (MLCAD) 2025 \
-**Corresponding Contact**: jason_ho@utexas.edu
+**Corresponding Contact**: jason_ho@utexas.edu \
 **Code Ocean DOI**: [[https://doi.org/10.24433/CO.1005356.v1]](https://doi.org/10.24433/CO.1005356.v1)
 
 
