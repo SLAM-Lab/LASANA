@@ -3,7 +3,7 @@
 **Affiliation:** The University of Texas at Austin, System-Level Architecture and Modeling Group (SLAM Lab) \
 **Conference:** Machine Learning on Computer-Aided Design (MLCAD) 2025 \
 **Corresponding Contact**: jason_ho@utexas.edu \
-**Code Ocean DOI**: [https://doi.org/10.24433/CO.1005356.v1](https://doi.org/10.24433/CO.1005356.v1)
+**Code Ocean DOI**: [https://doi.org/10.24433/CO.1005356.v1](https://doi.org/10.24433/CO.1005356.v1) \
 **Paper DOI**: [https://doi.org/10.1109/MLCAD65511.2025.11189133](https://doi.org/10.1109/MLCAD65511.2025.11189133)
 
 
@@ -20,7 +20,7 @@ If you use this work, please cite our paper:
 J. Ho, J. A. Boyle, L. Liu and A. Gerstlauer, "LASANA: Large-Scale Surrogate Modeling for Analog Neuromorphic Architecture Exploration," 2025 ACM/IEEE 7th Symposium on Machine Learning for CAD (MLCAD), Santa Cruz, CA, USA, 2025, pp. 1-8, doi: 10.1109/MLCAD65511.2025.11189133.
 
 **BibTeX**
-```
+```bibtex
 @INPROCEEDINGS{Ho2025LASANA,
   author={Ho, Jason and Boyle, James A. and Liu, Linshen and Gerstlauer, Andreas},
   booktitle={2025 ACM/IEEE 7th Symposium on Machine Learning for CAD (MLCAD)}, 
