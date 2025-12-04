@@ -2,15 +2,39 @@
 **Authors:** Jason Ho, James. A. Boyle, Linshen Liu, and Andreas Gerstlauer \
 **Affiliation:** The University of Texas at Austin, System-Level Architecture and Modeling Group (SLAM Lab) \
 **Conference:** Machine Learning on Computer-Aided Design (MLCAD) 2025 \
-**Corresponding Contact**: jason_ho@utexas.edu
+**Corresponding Contact**: jason_ho@utexas.edu \
+**Code Ocean DOI**: [https://doi.org/10.24433/CO.1005356.v1](https://doi.org/10.24433/CO.1005356.v1) \
+**Paper DOI**: [https://doi.org/10.1109/MLCAD65511.2025.11189133](https://doi.org/10.1109/MLCAD65511.2025.11189133)
 
 
 ### Abstract
 Neuromorphic systems using in-memory or event-driven computing are motivated by the need for more energy-efficient processing of artificial intelligence workloads. Emerging neuromorphic architectures aim to combine traditional digital designs with the computational efficiency of analog computing and novel device technologies. A crucial problem in the rapid exploration and co-design of such architectures is the lack of tools for fast and accurate modeling and simulation. Typical mixed-signal design tools integrate a digital simulator with an analog solver like SPICE, which is prohibitively slow for large systems. By contrast, behavioral modeling of analog components is faster, but existing approaches are fixed to specific architectures with limited energy and performance modeling. In this paper, we propose LASANA, a novel approach that leverages machine learning to derive data-driven surrogate models of analog sub-blocks in a digital backend architecture. LASANA uses SPICE-level simulations of a circuit to train ML models that predict circuit energy, performance, and behavior at analog/digital interfaces. Such models can provide energy and performance annotation on top of existing behavioral models or function as replacements to analog simulation. We apply LASANA to an analog crossbar array and a spiking neuron circuit. Running MNIST and spiking MNIST, LASANA surrogates demonstrate up to three orders of magnitude speedup over SPICE, with energy, latency, and behavioral error less than 7%, 8%, and 2%, respectively.
 
-[[arXiv]](https://arxiv.org/abs/2507.10748) [[Code Ocean]](optional-link)
+[[arXiv]](https://arxiv.org/abs/2507.10748) [[Code Ocean]](https://doi.org/10.24433/CO.1005356.v1) [[IEEE Paper]](https://doi.org/10.1109/MLCAD65511.2025.11189133)
 
 ---
+
+## Citation
+If you use this work, please cite our paper:
+
+J. Ho, J. A. Boyle, L. Liu and A. Gerstlauer, "LASANA: Large-Scale Surrogate Modeling for Analog Neuromorphic Architecture Exploration," 2025 ACM/IEEE 7th Symposium on Machine Learning for CAD (MLCAD), Santa Cruz, CA, USA, 2025, pp. 1-8, doi: 10.1109/MLCAD65511.2025.11189133.
+
+**BibTeX**
+```bibtex
+@INPROCEEDINGS{Ho2025LASANA,
+  author={Ho, Jason and Boyle, James A. and Liu, Linshen and Gerstlauer, Andreas},
+  booktitle={2025 ACM/IEEE 7th Symposium on Machine Learning for CAD (MLCAD)}, 
+  title={LASANA: Large-Scale Surrogate Modeling for Analog Neuromorphic Architecture Exploration}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Solid modeling;Neuromorphics;Computational modeling;Neurons;Machine learning;Predictive models;SPICE;Energy efficiency;Design tools;Computational efficiency;neuromorphic architectures;analog computing;mixed-signal simulation;machine learning;surrogate modeling},
+  doi={10.1109/MLCAD65511.2025.11189133}}
+```
+
+---
+
 ### Overview
 This repository contains the code and scripts used for our paper: LASANA: Large-Scale Surrogate Modeling for Analog Neuromorphic Architecture Exploration, accepted at MLCAD 2025. The code is structured for a Code Ocean capsule (link above), an immutable, reproducible container that contains code, datasets, and outputs from a run on their systems. We detail some of the limitations / guardrails put in place to successfully emulate our environment and results using Code Ocean below.
 
@@ -177,20 +201,3 @@ Additionally, near the end of the script, we can uncomment line 160, and line 16
 ## Dependencies
 Our runs, the Code Ocean runs, etc. have all been run in Python 3.8.*. We have also provided the essential dependencies in `requirements.txt`, if one wants to recreate the same results locally.
 
-
-
-## Citation
-If you use this work, please cite our paper:
-
-J. Ho, J. A. Boyle, L. Liu, and A. Gerstlauer, “LASANA: Large‑Scale Surrogate Modeling for Analog Neuromorphic Architecture Exploration,” arXiv preprint arXiv:2507.10748, 2025, accepted at MLCAD 2025.
-
-**BibTeX**
-```
-@article{Ho2025LASANA,
-  author       = {Ho, Jason and Boyle, James A. and Liu, Linshen and Gerstlauer, Andreas},
-  title        = {LASANA: Large-Scale Surrogate Modeling for Analog Neuromorphic Architecture Exploration},
-  journal      = {arXiv preprint arXiv:2507.10748},
-  year         = {2025},
-  note         = {Accepted to MLCAD 2025},
-  doi          = {10.48550/arXiv.2507.10748}
-}
